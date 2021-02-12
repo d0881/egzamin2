@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #99ffcc;
+}
+
+.flex {
+  display: flex;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  margin: auto;
+  width: 1000px;
+  height: 100vh;
+}
+.banner {
+  background-color: #99ff66;
+  background-image: url("./images/Animacja.gif");
+  height: 200px;
+}
+
+.nav {
+  background-color: #66ccff;
+}
+
+.nav ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #006666;
+  margin: 50px;
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.main {
+  align-items: start;
+}
+
+.main > div {
+  width: 310px;
+}
+
+#reset {
+  background-color: #ff0000;
+}
+
+#send {
+  background-color: #00ff00;
+}
+
+.footer {
+  background-color: #66ccff;
+  color: #006666;
+  text-align: right;
+  height: 30px;
+  padding: 20px;
+}
+
+.footer > p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
